@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joshua Stromayer — Physicist & Builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="hero-content">
+    <p class="hero-eyebrow">BSc Physics · Queen Mary University of London</p>
+    <h1 class="hero-name">Joshua<br><span>Stromayer</span></h1>
+    <p class="hero-tagline">I build systems that sit at the intersection of physics and machine learning — from satellite debris detection to neurological diagnostics.</p>
+    <div class="hero-cta-group">
+      <a href="#research" class="btn-primary">View Research ↓</a>
+      <a href="#contact" class="btn-ghost">Get in touch</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- MAIN LAYOUT -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">Stromayer Stromayer</div>
+    <div class="sidebar-sub">Physicist & Builder</div>
+    <nav id="main-nav">
+      <a href="#about" class="nav-link active"><span class="nav-dot"></span>About</a>
+      <a href="#research" class="nav-link"><span class="nav-dot"></span>Research</a>
+      <a href="#experience" class="nav-link"><span class="nav-dot"></span>Experience</a>
+      <a href="#projects" class="nav-link"><span class="nav-dot"></span>Projects</a>
+      <a href="#physics-demo" class="nav-link"><span class="nav-dot"></span>Live Demo</a>
+      <a href="#skills" class="nav-link"><span class="nav-dot"></span>Skills</a>
+      <a href="#education" class="nav-link"><span class="nav-dot"></span>Education</a>
+      <a href="#contact" class="nav-link"><span class="nav-dot"></span>Contact</a>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="mailto:joshuastromayer@gmail.com" class="sidebar-link">✉ joshuastromayer@gmail.com</a>
+      <a href="https://github.com/" target="_blank" class="sidebar-link">⌥ github</a>
+      <a href="https://linkedin.com/" target="_blank" class="sidebar-link">◈ linkedin</a>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-label">About</div>
+      <h2 class="section-title">Physics first.<br>Code is the tool.</h2>
+      <p class="section-prose">
+        I'm a physics undergraduate at Queen Mary University of London with a background in computer science. I build computational systems that solve real scientific problems — ML pipelines for space debris detection, MRI-based neurological diagnostics, atmospheric sensor arrays, and agent-based social simulations.
+      </p>
+      <p class="section-prose">
+        Outside the lab, I train MMA and hold a black belt in taekwondo. I also wrestled competitively. The discipline of a dojo and the rigour of a research environment aren't as different as people think.
+      </p>
+
+      <div class="about-grid">
+        <div class="stat-card reveal">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Active Research Projects</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-num">300k+</div>
+          <div class="stat-label">Astronomical Images Processed</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-num">1st</div>
+          <div class="stat-label">Predicted First-Class Honours</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-num">7</div>
+          <div class="stat-label">CubeSat Modules Led</div>
+        </div>
+      </div>
+
+      <div class="interest-tags" style="margin-top: 32px;">
+        <span class="tag highlight">Physics Research</span>
+        <span class="tag highlight">Machine Learning</span>
+        <span class="tag highlight">Astrophysics</span>
+        <span class="tag">MMA / Taekwondo</span>
+        <span class="tag">CubeSats</span>
+        <span class="tag">Motorcycles</span>
+        <span class="tag">Soldering & Electronics</span>
+        <span class="tag">3D Printing</span>
+        <span class="tag">Chess</span>
+        <span class="tag">Motorsport</span>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="section-label">Research</div>
+      <h2 class="section-title">Where the<br>real work happens.</h2>
+      <p class="section-prose">
+        Each of these projects started with a physical or biological problem. The code is in service of the science, not the other way around.
+      </p>
+
+      <div class="research-card reveal">
+        <div class="research-icon">SAT</div>
+        <div>
+          <div class="research-title">QMSat SCRAP — Space Debris Detection</div>
+          <div class="research-org">QMUL · EPFL · Imperial College London · Oct 2025–Present · Software Lead</div>
+          <div class="research-desc">
+            Leading software architecture for a CubeSat-based ML debris detection system across a collaboration spanning three universities. Designed CNN models for automated feature detection from satellite imaging data, coordinating 7 parallel engineering modules with redundancy built in at every layer. This is real systems engineering in a resource-constrained orbital environment.
+          </div>
+        </div>
+      </div>
+
+      <div class="research-card reveal">
+        <div class="research-icon">MRI</div>
+        <div>
+          <div class="research-title">Neuvara — Neurological Disease Detection</div>
+          <div class="research-org">Co-Founder & Research Lead · March 2026–Present</div>
+          <div class="research-desc">
+            Co-founded a cross-disciplinary research project applying signal processing principles from imaging physics to MRI brain scan analysis. Built a hierarchical classification framework — broad category identification before specialist routing — to detect rare neurological diseases. Collaborating with a pharmacology specialist to anchor algorithm outputs in clinically meaningful biomarkers.
+          </div>
+        </div>
+      </div>
+
+      <div class="research-card reveal">
+        <div class="research-icon">ATM</div>
+        <div>
+          <div class="research-title">LADAR — Low Atmospheric Data Acquisition</div>
+          <div class="research-org">Co-Founder & Research Lead · Feb 2026–Present</div>
+          <div class="research-desc">
+            Co-founded a student research group focused on microclimate variation at low atmospheric altitudes. Designed and deployed custom sensor arrays for high-resolution atmospheric data collection. Building Python/MATLAB pipelines for multi-sensor data processing and visualisation, and presenting findings at university research seminars.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title">What I've<br>shipped.</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-role">Software Engineer</div>
+              <div class="timeline-company">Parallax</div>
+            </div>
+            <div class="timeline-date">Apr 2026 – Present</div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Built multi-agent simulation systems modelling opinion dynamics and information propagation using LLM-driven agents with persistent memory and behavioural personas.</li>
+            <li>Designed agent behaviour logic and simulation loops, improving interaction realism and emergent system dynamics across iterative runs.</li>
+            <li>Integrated Neo4j knowledge graph pipelines with LLM-based entity extraction, enabling agents to reason over structured relational data.</li>
+            <li>Ran multi-model LLM workflows (Ollama / OpenAI-compatible APIs), optimising task allocation for performance and cost — e.g. entity recognition vs. report generation.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-role">Data Scientist / Research Intern</div>
+              <div class="timeline-company">BEAT — Zeefleet</div>
+            </div>
+            <div class="timeline-date">Jun 2026 – Jul 2026</div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Developed advanced forecasting models accounting for seasonal variation, geography, and climate impacts on vehicle performance and incident patterns.</li>
+            <li>Improved data visualisations to communicate complex fleet performance metrics to non-technical decision-makers.</li>
+            <li>Tested enhanced optimisation techniques for fleet deployment and charging infrastructure planning.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-role">Visitor Service Assistant</div>
+              <div class="timeline-company">Sherlock Holmes Museum</div>
+            </div>
+            <div class="timeline-date">Apr 2023 – Present</div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Maintained consistent part-time employment alongside full-time study — over three years.</li>
+            <li>Managed high visitor throughput in a high-pressure heritage environment, balancing logistics with personalised engagement.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title">Things I built<br>to understand things.</h2>
+      <p class="section-prose">Personal projects that started as questions and turned into working systems.</p>
+
+      <div class="project-grid" style="margin-top: 32px;">
+
+        <div class="project-card featured reveal">
+          <div>
+            <div class="project-type">Astrophysics · ML</div>
+            <div class="project-name">Galaxy Classifier</div>
+            <div class="project-desc">Integrated 300,000+ Sloan Digital Sky Survey images and metadata into a unified dataset for multimodal learning. Built and benchmarked CNN and ensemble models, with a planned next iteration combining CNN with MLP for improved physical interpretability of morphological features.</div>
+            <div class="project-tech">
+              <span class="tech-chip">PyTorch</span>
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">CNN</span>
+              <span class="tech-chip">SDSS Data</span>
+              <span class="tech-chip">scikit-learn</span>
+            </div>
+          </div>
+          <div class="project-visual">
+            <canvas id="galaxy-canvas" style="width:100%;height:100%;"></canvas>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-type">Astrophysics · Data</div>
+          <div class="project-name">Stellar Stage Classifier</div>
+          <div class="project-desc">Processed ESA Gaia DR3 data across all 7 spectral classes. Applied K-Means clustering tuned to 21 luminosity subclasses, then built a browser-based classifier that takes 4 user-input parameters and returns a classification with an illustration of the star.</div>
+          <div class="project-tech">
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">K-Means</span>
+            <span class="tech-chip">Gaia DR3</span>
+            <span class="tech-chip">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-type">Classical Physics · Simulation</div>
+          <div class="project-name">Physics Simulations</div>
+          <div class="project-desc">Real-time simulations of pendulum motion, projectile dynamics, and pulley systems — numerically solving governing equations of motion. Runs at 60–100 FPS using HTML5 Canvas with time-stepping algorithms for stability. User inputs generate live data tables alongside the render.</div>
+          <div class="project-tech">
+            <span class="tech-chip">JavaScript</span>
+            <span class="tech-chip">HTML5 Canvas</span>
+            <span class="tech-chip">Numerical Methods</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PHYSICS DEMO -->
+    <section id="physics-demo">
+      <div class="section-label">Live Demo</div>
+      <h2 class="section-title">N-body gravity<br>in your browser.</h2>
+      <p class="section-prose">A real-time n-body gravitational simulation running at 60 FPS. Click to add masses. Toggle to switch between gravity modes. This is the kind of thing I build to understand the physics — then refine the numerics.</p>
+
+      <div class="demo-canvas-wrap reveal">
+        <canvas id="demo-canvas"></canvas>
+        <div class="demo-label">N-BODY SIM · LIVE</div>
+      </div>
+      <div class="demo-controls">
+        <button class="demo-btn active" id="btn-grav">Newtonian Gravity</button>
+        <button class="demo-btn" id="btn-spring">Spring Field</button>
+        <button class="demo-btn" id="btn-clear">Clear</button>
+      </div>
+      <p class="demo-hint">↳ Click anywhere in the field to spawn a mass. Bodies interact via gravitational attraction.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-label">Skills</div>
+      <h2 class="section-title">The toolkit.</h2>
+
+      <div class="skills-grid" style="margin-top: 32px;">
+        <div class="reveal">
+          <div class="skill-group-label">Programming</div>
+          <div class="skill-list">
+            <div class="skill-row">
+              <div class="skill-name">Python <span>Primary</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">JavaScript / TS <span>Frontend & Sim</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Java <span>Academic</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">SQL <span>Data</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">MATLAB <span>Physics / Signal</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="skill-group-label">ML / Data</div>
+          <div class="skill-list">
+            <div class="skill-row">
+              <div class="skill-name">PyTorch <span>Deep Learning</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">scikit-learn <span>Classical ML</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">NumPy / Pandas <span>Analysis</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Matplotlib / Seaborn <span>Viz</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Neo4j <span>Graph DB</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="skill-group-label">Physics / Lab</div>
+          <div class="skill-list">
+            <div class="skill-row">
+              <div class="skill-name">Scientific Measurement <span>87%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Oscilloscope / CRT <span>Hardware</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Signal Processing <span>MRI / Sensors</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Numerical Methods <span>ODE solvers</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="skill-group-label">Systems & Infrastructure</div>
+          <div class="skill-list">
+            <div class="skill-row">
+              <div class="skill-name">LLM APIs / Ollama <span>Agent Systems</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">CNN Architecture <span>Computer Vision</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="79"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Data Pipelines <span>ETL / Processing</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="83"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Systems Architecture <span>CubeSat / Multi-module</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="section-label">Education</div>
+      <h2 class="section-title">Where I'm<br>learning.</h2>
+
+      <div class="edu-card reveal">
+        <div>
+          <div class="edu-degree">BSc Physics</div>
+          <div class="edu-school">Queen Mary University of London</div>
+          <div class="edu-courses">
+            <span class="course-chip">Electricity & Magnetism (80%)</span>
+            <span class="course-chip">Quantum Mechanics A</span>
+            <span class="course-chip">Thermodynamics</span>
+            <span class="course-chip">Scientific Measurement (86.5%)</span>
+            <span class="course-chip">Mathematical Techniques II (80%)</span>
+            <span class="course-chip">Mathematical Techniques III</span>
+          </div>
+        </div>
+        <div class="edu-grade">Sep 2025–2028<br>Predicted 1st</div>
+      </div>
+
+      <div class="edu-card reveal">
+        <div>
+          <div class="edu-degree">BSc Computer Science</div>
+          <div class="edu-school">City St George's, University of London</div>
+          <div style="font-size: 14px; color: var(--white-dim); margin-top: 8px;">Completed first year, transferred to pursue physics. First-class average.</div>
+        </div>
+        <div class="edu-grade">Sep 2024–2025<br>1st Class Avg</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Let's work<br>on something real.</h2>
+      <p class="section-prose">
+        I'm looking for physics research collaborations and part-time remote software engineering roles. If you're building something that needs someone who understands both the science and the systems — get in touch.
+      </p>
+
+      <div class="contact-grid">
+        <a href="mailto:your@email.com" class="contact-card reveal">
+          <div class="contact-type">Email</div>
+          <div class="contact-value">joshuastromayer@gmail.com</div>
+          <div class="contact-arrow">→</div>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="contact-card reveal">
+          <div class="contact-type">LinkedIn</div>
+          <div class="contact-value">linkedin.com/in/joshuastromayer</div>
+          <div class="contact-arrow">→</div>
+        </a>
+        <a href="https://github.com/" target="_blank" class="contact-card reveal">
+          <div class="contact-type">GitHub</div>
+          <div class="contact-value">github.com/joshstromayer</div>
+          <div class="contact-arrow">→</div>
+        </a>
+        <div class="contact-card reveal" style="cursor: default;">
+          <div class="contact-type">Location</div>
+          <div class="contact-value" style="color: var(--white);">London, UK</div>
+          <div style="font-size: 13px; color: var(--steel); margin-top: 4px;">Available for remote work globally</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
